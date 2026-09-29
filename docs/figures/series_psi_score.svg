@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" font-family="sans-serif" font-size="12">
+<rect width="760" height="360" fill="white"/>
+<text x="70" y="24" font-size="15" font-weight="bold">psi:score per window (demo, synthetic fixture v1)</text>
+<line x1="70" y1="40" x2="70" y2="300" stroke="black"/>
+<line x1="70" y1="300" x2="740" y2="300" stroke="black"/>
+<text x="14" y="170" transform="rotate(-90 14 170)" text-anchor="middle">psi</text>
+<text x="405" y="348" text-anchor="middle">window (chronological)</text>
+<rect x="70.0" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="83.4" cy="294.4" r="3" fill="#2f855a"/>
+<rect x="96.8" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="110.2" cy="297.2" r="3" fill="#2f855a"/>
+<rect x="123.6" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="137.0" cy="297.3" r="3" fill="#2f855a"/>
+<rect x="150.4" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="163.8" cy="295.2" r="3" fill="#2f855a"/>
+<rect x="177.2" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="190.6" cy="297.8" r="3" fill="#2f855a"/>
+<rect x="204.0" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="217.4" cy="292.7" r="3" fill="#2f855a"/>
+<rect x="230.8" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="244.2" cy="295.5" r="3" fill="#2f855a"/>
+<rect x="257.6" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="271.0" cy="297.0" r="3" fill="#2f855a"/>
+<rect x="284.4" y="40" width="26.8" height="260" fill="#2f855a" opacity="0.10"/>
+<circle cx="297.8" cy="293.5" r="3" fill="#2f855a"/>
+<rect x="311.2" y="40" width="26.8" height="260" fill="#b7791f" opacity="0.10"/>
+<circle cx="324.6" cy="291.1" r="3" fill="#b7791f"/>
+<rect x="338.0" y="40" width="26.8" height="260" fill="#b7791f" opacity="0.10"/>
+<circle cx="351.4" cy="295.3" r="3" fill="#b7791f"/>
+<rect x="364.8" y="40" width="26.8" height="260" fill="#c53030" opacity="0.10"/>
+<circle cx="378.2" cy="288.0" r="3" fill="#c53030"/>
+<rect x="391.6" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="405.0" cy="92.5" r="3" fill="#6b46c1"/>
+<rect x="418.4" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="431.8" cy="190.1" r="3" fill="#6b46c1"/>
+<rect x="445.2" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="458.6" cy="107.9" r="3" fill="#6b46c1"/>
+<rect x="472.0" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="485.4" cy="134.0" r="3" fill="#6b46c1"/>
+<rect x="498.8" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="512.2" cy="73.9" r="3" fill="#6b46c1"/>
+<rect x="525.6" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="539.0" cy="87.1" r="3" fill="#6b46c1"/>
+<rect x="552.4" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="565.8" cy="187.6" r="3" fill="#6b46c1"/>
+<rect x="579.2" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="592.6" cy="90.2" r="3" fill="#6b46c1"/>
+<rect x="606.0" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<rect x="632.8" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="646.2" cy="161.6" r="3" fill="#6b46c1"/>
+<rect x="659.6" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="673.0" cy="148.6" r="3" fill="#6b46c1"/>
+<rect x="686.4" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<circle cx="699.8" cy="194.3" r="3" fill="#6b46c1"/>
+<rect x="713.2" y="40" width="26.8" height="260" fill="#6b46c1" opacity="0.10"/>
+<polyline points="83.4,294.4 110.2,297.2 137.0,297.3 163.8,295.2 190.6,297.8 217.4,292.7 244.2,295.5 271.0,297.0 297.8,293.5 324.6,291.1 351.4,295.3 378.2,288.0 405.0,92.5 431.8,190.1 458.6,107.9 485.4,134.0 512.2,73.9 539.0,87.1 565.8,187.6 592.6,90.2 646.2,161.6 673.0,148.6 699.8,194.3" fill="none" stroke="#1a202c" stroke-width="1.5"/>
+<line x1="70" y1="289.7" x2="740" y2="289.7" stroke="#c53030" stroke-dasharray="6 4"/>
+<text x="740" y="285.7" text-anchor="end" fill="#c53030">enter_alert = 0.141</text>
+<text x="70" y="316">2026-07-01</text>
+<text x="740" y="316" text-anchor="end">2026-07-25</text>
+</svg>

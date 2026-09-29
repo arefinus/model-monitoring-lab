@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/arefinus/model-monitoring-lab/schemas/prediction_event.json",
+  "title": "PredictionEvent",
+  "description": "One scored event exported by a prediction service. Sibling repositories can emit this shape so the same monitoring checks apply to them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_id", "timestamp", "model_id", "model_version", "features", "score", "decision", "route", "label", "label_available_at"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1, "description": "Unique identifier of the scored event."},
+    "timestamp": {"type": "string", "format": "date-time", "description": "When the input was received (event time), ISO 8601 with timezone."},
+    "model_id": {"type": "string", "minLength": 1},
+    "model_version": {"type": "string", "minLength": 1},
+    "features": {"type": "object", "description": "Feature name to value. Values may be number, string, boolean or null. The key set is the schema being monitored."},
+    "score": {"type": "number", "minimum": 0, "maximum": 1, "description": "Model output used for the decision."},
+    "decision": {"type": "string", "minLength": 1, "description": "Categorical decision taken from the score."},
+    "route": {"type": "string", "minLength": 1, "description": "Where the event went next (auto, queue name, review desk)."},
+    "label": {"type": ["integer", "null"], "description": "Ground truth when known; null until it arrives."},
+    "label_available_at": {"type": ["string", "null"], "format": "date-time", "description": "When the label became (or will become) known; null when no label exists yet."},
+    "scored_at": {"type": ["string", "null"], "format": "date-time", "description": "Optional. When the score was produced. Inference latency is scored_at minus timestamp; latency statistics are null when this field is absent."}
+  }
+}

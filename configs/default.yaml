@@ -1,0 +1,37 @@
+# Default configuration for model-monitoring-lab. Every value is a setting, not a result.
+seed: 42
+window_days: 1
+as_of: "2026-07-25T00:00:00Z"     # analysis time; labels available after this are not yet known
+min_n: 50                          # windows with fewer events never change an alert state
+psi_bins: 10                       # reference quantile bins for PSI and Jensen-Shannon
+ece_bins: 10                       # equal-width bins for expected calibration error
+min_labels: 30                     # minimum available labels before calibration is computed
+
+numeric_features: [amount, tenure_months, income]
+categorical_features: [region, channel, device_type]
+
+fixture:
+  reference: examples/fixtures/v1/reference.jsonl
+  stream: examples/fixtures/v1/shifted.jsonl
+output_dir: examples/output
+thresholds_file: configs/locked_thresholds.yaml
+
+maintenance_windows:
+  - { start: "2026-07-09T00:00:00Z", end: "2026-07-10T00:00:00Z" }
+
+state_machine:
+  resolve_after: 2
+  cooldown_windows: 2
+
+# Rule-based series (not selected on validation streams; documented settings).
+rules:
+  missingness_delta: { enter_watch: 0.10, enter_alert: 0.15, exit_watch: 0.02, exit_alert: 0.05 }
+  new_category:      { enter_watch: 1, enter_alert: 1, exit_watch: 0, exit_alert: 0 }   # binary
+  schema_change:     { enter_watch: 1, enter_alert: 1, exit_watch: 0, exit_alert: 0 }   # binary
+  latency_ratio:     { enter_watch: 1.5, enter_alert: 2.5, exit_watch: 1.2, exit_alert: 1.5 }  # p95 / reference p95
+
+validation:
+  n_clean: 3
+  n_drifted: 3
+
+simulate_acknowledge_after_windows: 1   # demo only: a simulated operator acknowledges one window after an alert

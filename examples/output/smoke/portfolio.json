@@ -1,0 +1,781 @@
+{
+ "schemaVersion": 1,
+ "mode": "synthetic-demo",
+ "generatedAt": "2026-09-29T05:13:44.301006+00:00",
+ "evidence": "demo",
+ "note": "computed on authored synthetic fixture v1, seed 42; thresholds selected on separate simulated validation streams; not a benchmark result",
+ "asOf": "2026-07-25T00:00:00+00:00",
+ "series": [
+  {
+   "name": "psi:amount",
+   "statistic": "psi",
+   "enterAlert": 0.14054,
+   "enterWatch": 0.102389,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": 0.023726,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 0.050997,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.040392,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": 0.034716,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 0.0967,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 0.044256,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 0.086803,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.088644,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": 0.165359,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": 0.378607,
+     "state": "alert"
+    }
+   ]
+  },
+  {
+   "name": "psi:score",
+   "statistic": "psi",
+   "enterAlert": 0.14054,
+   "enterWatch": 0.102389,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": 0.075634,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 0.037452,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.0372,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": 0.065234,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 0.03045,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 0.099711,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 0.061091,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.040505,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": 0.088372,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": 0.120753,
+     "state": "watch"
+    }
+   ]
+  },
+  {
+   "name": "missing:income",
+   "statistic": "missing",
+   "enterAlert": 0.15,
+   "enterWatch": 0.1,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": -0.042188,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 0.014062,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.001562,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": -0.004688,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 0.001562,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 0.026562,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 0.382812,
+     "state": "alert"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.389062,
+     "state": "acknowledged"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": -0.010938,
+     "state": "acknowledged"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": -0.017188,
+     "state": "acknowledged"
+    }
+   ]
+  },
+  {
+   "name": "category:region",
+   "statistic": "category",
+   "enterAlert": 1.0,
+   "enterWatch": 1.0,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    }
+   ]
+  },
+  {
+   "name": "schema",
+   "statistic": "schema",
+   "enterAlert": 1.0,
+   "enterWatch": 1.0,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": 0.0,
+     "state": "healthy"
+    }
+   ]
+  },
+  {
+   "name": "latency:p95_ratio",
+   "statistic": "latency",
+   "enterAlert": 2.5,
+   "enterWatch": 1.5,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": 1.009213,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 1.064963,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.941779,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": 0.981351,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 1.069932,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 1.055652,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 1.062408,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.996133,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": 1.027233,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": 0.906311,
+     "state": "healthy"
+    }
+   ]
+  },
+  {
+   "name": "ks:amount",
+   "statistic": "ks",
+   "enterAlert": 0.120742,
+   "enterWatch": 0.096593,
+   "points": [
+    {
+     "window": "2026-07-01",
+     "n": 160,
+     "value": 0.063542,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-02",
+     "n": 160,
+     "value": 0.04401,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-03",
+     "n": 160,
+     "value": 0.042448,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-04",
+     "n": 160,
+     "value": 0.071875,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-05",
+     "n": 160,
+     "value": 0.071354,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-06",
+     "n": 160,
+     "value": 0.059375,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-07",
+     "n": 160,
+     "value": 0.094792,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-08",
+     "n": 160,
+     "value": 0.090625,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-09",
+     "n": 160,
+     "value": 0.173177,
+     "state": "healthy"
+    },
+    {
+     "window": "2026-07-10",
+     "n": 160,
+     "value": 0.28125,
+     "state": "alert"
+    }
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "window": "2026-07-02",
+   "series": "ks:tenure_months",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.104948,
+   "threshold": 0.096593,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-03",
+   "series": "ks:tenure_months",
+   "fromState": "watch",
+   "toState": "healthy",
+   "value": 0.051823,
+   "threshold": 0.060937,
+   "reason": "value fell below exit_watch"
+  },
+  {
+   "window": "2026-07-04",
+   "series": "js:tenure_months",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.130802,
+   "threshold": 0.126703,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-05",
+   "series": "js:amount",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.131484,
+   "threshold": 0.126703,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-05",
+   "series": "js:income",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.129032,
+   "threshold": 0.126703,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-06",
+   "series": "js:amount",
+   "fromState": "watch",
+   "toState": "healthy",
+   "value": 0.08918,
+   "threshold": 0.099425,
+   "reason": "value fell below exit_watch"
+  },
+  {
+   "window": "2026-07-06",
+   "series": "js:score",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.133491,
+   "threshold": 0.126703,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-06",
+   "series": "js:tenure_months",
+   "fromState": "watch",
+   "toState": "healthy",
+   "value": 0.080922,
+   "threshold": 0.099425,
+   "reason": "value fell below exit_watch"
+  },
+  {
+   "window": "2026-07-06",
+   "series": "ks:income",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.105802,
+   "threshold": 0.096593,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-06",
+   "series": "psi:income",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.113668,
+   "threshold": 0.102389,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-07",
+   "series": "missing:income",
+   "fromState": "healthy",
+   "toState": "alert",
+   "value": 0.382812,
+   "threshold": 0.15,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-08",
+   "series": "js:income",
+   "fromState": "watch",
+   "toState": "alert",
+   "value": 0.180592,
+   "threshold": 0.158379,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-08",
+   "series": "js:score",
+   "fromState": "watch",
+   "toState": "healthy",
+   "value": 0.085317,
+   "threshold": 0.099425,
+   "reason": "value fell below exit_watch"
+  },
+  {
+   "window": "2026-07-08",
+   "series": "js:tenure_months",
+   "fromState": "healthy",
+   "toState": "alert",
+   "value": 0.205335,
+   "threshold": 0.158379,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-08",
+   "series": "missing:income",
+   "fromState": "alert",
+   "toState": "acknowledged",
+   "value": null,
+   "threshold": null,
+   "reason": "acknowledged by simulated-operator"
+  },
+  {
+   "window": "2026-07-08",
+   "series": "psi:income",
+   "fromState": "watch",
+   "toState": "alert",
+   "value": 0.185654,
+   "threshold": 0.14054,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-08",
+   "series": "psi:tenure_months",
+   "fromState": "healthy",
+   "toState": "alert",
+   "value": 0.245242,
+   "threshold": 0.14054,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-09",
+   "series": "js:income",
+   "fromState": "alert",
+   "toState": "acknowledged",
+   "value": null,
+   "threshold": null,
+   "reason": "acknowledged by simulated-operator"
+  },
+  {
+   "window": "2026-07-09",
+   "series": "js:tenure_months",
+   "fromState": "alert",
+   "toState": "acknowledged",
+   "value": null,
+   "threshold": null,
+   "reason": "acknowledged by simulated-operator"
+  },
+  {
+   "window": "2026-07-09",
+   "series": "psi:income",
+   "fromState": "alert",
+   "toState": "acknowledged",
+   "value": null,
+   "threshold": null,
+   "reason": "acknowledged by simulated-operator"
+  },
+  {
+   "window": "2026-07-09",
+   "series": "psi:tenure_months",
+   "fromState": "alert",
+   "toState": "acknowledged",
+   "value": null,
+   "threshold": null,
+   "reason": "acknowledged by simulated-operator"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "js:amount",
+   "fromState": "healthy",
+   "toState": "alert",
+   "value": 0.257471,
+   "threshold": 0.158379,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "js:score",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.146746,
+   "threshold": 0.126703,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "ks:amount",
+   "fromState": "healthy",
+   "toState": "alert",
+   "value": 0.28125,
+   "threshold": 0.120742,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "ks:income",
+   "fromState": "watch",
+   "toState": "healthy",
+   "value": 0.051869,
+   "threshold": 0.060937,
+   "reason": "value fell below exit_watch"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "ks:score",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.109115,
+   "threshold": 0.096593,
+   "reason": "value reached enter_watch"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "psi:amount",
+   "fromState": "healthy",
+   "toState": "alert",
+   "value": 0.378607,
+   "threshold": 0.14054,
+   "reason": "value reached enter_alert"
+  },
+  {
+   "window": "2026-07-10",
+   "series": "psi:score",
+   "fromState": "healthy",
+   "toState": "watch",
+   "value": 0.120753,
+   "threshold": 0.102389,
+   "reason": "value reached enter_watch"
+  }
+ ],
+ "finalStates": {
+  "category:channel": "healthy",
+  "category:device_type": "healthy",
+  "category:region": "healthy",
+  "js:amount": "alert",
+  "js:income": "acknowledged",
+  "js:score": "watch",
+  "js:tenure_months": "acknowledged",
+  "ks:amount": "alert",
+  "ks:income": "healthy",
+  "ks:score": "watch",
+  "ks:tenure_months": "healthy",
+  "latency:p95_ratio": "healthy",
+  "missing:amount": "healthy",
+  "missing:channel": "healthy",
+  "missing:income": "acknowledged",
+  "missing:region": "healthy",
+  "missing:tenure_months": "healthy",
+  "psi:amount": "alert",
+  "psi:income": "acknowledged",
+  "psi:score": "watch",
+  "psi:tenure_months": "acknowledged",
+  "schema": "healthy"
+ },
+ "thresholdSelection": {
+  "psi": {
+   "enterAlert": 0.14054,
+   "enterWatch": 0.102389,
+   "separated": false
+  },
+  "ks": {
+   "enterAlert": 0.120742,
+   "enterWatch": 0.096593,
+   "separated": false
+  },
+  "js": {
+   "enterAlert": 0.158379,
+   "enterWatch": 0.126703,
+   "separated": false
+  }
+ }
+}

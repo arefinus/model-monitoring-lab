@@ -1,0 +1,71 @@
+note: Thresholds selected on separate simulated validation streams and locked; applied
+  unchanged to the test stream. Settings, not results.
+provenance:
+  streams:
+  - kind: clean
+    seed: 142
+    days: 12
+    events: 1920
+  - kind: clean
+    seed: 143
+    days: 12
+    events: 1920
+  - kind: clean
+    seed: 144
+    days: 12
+    events: 1920
+  - kind: drifted
+    seed: 242
+    days: 12
+    events: 1920
+  - kind: drifted
+    seed: 243
+    days: 12
+    events: 1920
+  - kind: drifted
+    seed: 244
+    days: 12
+    events: 1920
+  features_pooled:
+  - amount
+  - tenure_months
+  - income
+  note: per-window statistics pooled across the numeric features of each validation
+    stream
+statistics:
+  psi:
+    enter_watch: 0.102389
+    enter_alert: 0.14054
+    exit_watch: 0.055182
+    exit_alert: 0.102389
+    separated: false
+    n_clean_windows: 108
+    n_drifted_windows: 108
+    clean_q50: 0.055182
+    clean_q95: 0.102389
+    clean_q99: 0.14054
+    drifted_q05: 0.023259
+  ks:
+    enter_watch: 0.096593
+    enter_alert: 0.120742
+    exit_watch: 0.060937
+    exit_alert: 0.096593
+    separated: false
+    n_clean_windows: 108
+    n_drifted_windows: 108
+    clean_q50: 0.060937
+    clean_q95: 0.10481
+    clean_q99: 0.120742
+    drifted_q05: 0.033515
+  js:
+    enter_watch: 0.126703
+    enter_alert: 0.158379
+    exit_watch: 0.099425
+    exit_alert: 0.126703
+    separated: false
+    n_clean_windows: 108
+    n_drifted_windows: 108
+    clean_q50: 0.099425
+    clean_q95: 0.135174
+    clean_q99: 0.158379
+    drifted_q05: 0.064688

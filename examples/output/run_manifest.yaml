@@ -1,0 +1,28 @@
+schema_version: 1
+project_id: model-monitoring-lab
+run_id: 20260929T042832Z-demo
+status: completed
+mode: demo
+evidence_status: demo
+git_commit: null
+data:
+  source_id: synthetic-fixture-v1
+  version: v1
+  split_manifest_hash: 4f8f6f68b2c8a0dc3364c001c5ef10c4c4860b81b7218e0aaef501ef6994d561
+  sample_counts:
+    reference_events: 3840
+    stream_events: 3680
+    windows: 25
+configuration_hash: 9af22cf941432b4d13194b0947da545468cc5376d9122adb40b8829162b38ade
+seed: 42
+environment:
+  python: 3.10.11
+  device: cpu
+metrics_file: monitoring_report.json
+predictions_file: null
+started_at: '2026-09-29T04:28:13.320694+00:00'
+finished_at: '2026-09-29T04:28:32.042015+00:00'
+extra:
+  reference_sha256: a1d1b84ba8c091bab8505a7e87c46d77f868db88c982ceb645d114259297deaf
+  stream_sha256: f07c3a2b50328894d6c1b3974039645a5b6613b045c0ee126b54ef1998c83d33
+  thresholds_file: configs/locked_thresholds.yaml
